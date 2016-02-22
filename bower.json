@@ -1,0 +1,9 @@
+{
+  "name": "firstProj",
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "velocity": "^1.2.3",
+    "bootstrap": "v4.0.0-alpha.2",
+    "tether": "^1.2.0"
+  }
+}
