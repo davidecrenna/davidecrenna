@@ -10,7 +10,7 @@ Laravel 5 Boilerplate ready to go with:
 
 In terminal:
 
-1. compass install
+1. composer install
 
 2. npm install
 
