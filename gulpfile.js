@@ -1,6 +1,6 @@
 var elixir = require('laravel-elixir');
 //https://www.npmjs.com/package/laravel-elixir-livereload
-//require('laravel-elixir-livereload');
+require('laravel-elixir-livereload');
 
 /*
  |--------------------------------------------------------------------------
@@ -32,7 +32,7 @@ elixir(function(mix) {
 
    mix.scripts([ 'jquery.js' , 'velocity.js' , 'velocity.ui.js' , 'tether.js' , 'bootstrap.js'] , 'public/js/all.js' , 'public/js/vendor');
 
-   //mix.livereload();
+   mix.livereload();
 });
 
 // gulp --production
