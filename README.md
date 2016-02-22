@@ -1,2 +1,2 @@
-# Basic-Laravel-App
+# Basic Laravel App
 A simple starter Laravel App 
