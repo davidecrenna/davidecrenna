@@ -1,2 +1,2 @@
-# Starter Laravel Boilerplate
+# Starter Laravel 5 Boilerplate
 
