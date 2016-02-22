@@ -12,12 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 
-/*Route::get('page/{var}' , function($var){
-	
-});*/
 /*
 |--------------------------------------------------------------------------
 | Application Routes
