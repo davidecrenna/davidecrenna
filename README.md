@@ -16,13 +16,13 @@ In terminal:
 
 3. bower install
 
+4. Rename .env.example -> .env
+
 Once installed:
 
 1. php artisan serve
 
-2. gulp
-
-3. gulp watch
+2. gulp watch
 
 
 
