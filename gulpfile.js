@@ -26,6 +26,7 @@ elixir(function(mix) {
    .copy('resources/bower_box/tether/dist/js/tether.js' , 'public/js/vendor')
    .copy('resources/bower_box/bootstrap/dist/js/bootstrap.js' , 'public/js/vendor');
 
+
    mix.styles([ 'bootstrap.css' , 'variables.css' , 'app.css' ] , 'public/css/all.css' , 'public/css');
 
    mix.version('public/css/all.css');
