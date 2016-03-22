@@ -13,7 +13,7 @@
                 <div class="tl-header">
                     <h3 class="tl-role">Insegnante di chitarra presso Istituto Civico di Formazione Musicale "SoulArt"</h3>
                     <h4 class="tl-address">Via A. Volta, 10 22017 Menaggio (CO)</h4>
-                    <span class="tl-time">Febbraio 2015 - presente</span>
+                    <span class="tl-time">Febbraio 2015 - in corso</span>
                 </div>
 
                 <a href="https://www.facebook.com/icfmsoulart/" target="_blank"><img src="img/thumb/logo-menaggio.jpg" alt=""></a>
@@ -31,7 +31,7 @@
                 <div class="tl-header">
                     <h3 class="tl-role">Insegnante di chitarra presso Accademia del Seprio</h3>
                     <h4 class="tl-address">Via San Lucio, 3  21050 Lonate Ceppino (VA)</h4>
-                    <span class="tl-time">Settembre 2014 - presente</span>
+                    <span class="tl-time">Settembre 2014 - in corso</span>
                 </div>
 
                 <p class="tl-content">Da settembre del 2014 collaboro con L'Accademia Musicale del Seprio in qualità di insegnante
@@ -49,7 +49,7 @@
                 <div class="tl-header">
                     <h3 class="tl-role">Sand</h3>
                     <h4 class="tl-company">Stoner Rock Band</h4>
-                    <span class="tl-time">2013 - presente</span>
+                    <span class="tl-time">2013 - in corso</span>
                 </div>
                 <a href="https://www.facebook.com/StonerSand/" target="_blank"><img src="img/thumb/logo-sand.jpg" alt=""></a>
                 <p class="tl-content">Dal 2013 collaboro con i <b>Sand</b>, band che propone il suo repertorio inedito
@@ -60,7 +60,7 @@
                 <div class="tl-header">
                     <h3 class="tl-role">The Slap</h3>
                     <h4 class="tl-company">Acoustic Duo & Band</h4>
-                    <span class="tl-time">Settembre 2012 - presente</span>
+                    <span class="tl-time">Settembre 2012 - in corso</span>
                 </div>
 
                 <p class="tl-content"><b>The Slap</b> è un progetto acustico nato nel settembre 2012 dalla unione della mia arte
@@ -75,7 +75,7 @@
                 <div class="tl-header">
                     <h3 class="tl-role">La Verdi</h3>
                     <h4 class="tl-company">Show & Marching Band</h4>
-                    <span class="tl-time">Novembre 2015 - presente</span>
+                    <span class="tl-time">Novembre 2015 - in corso</span>
                 </div>
 
                 <p class="tl-content">Collaboro in qualita di cassista nella <b>Giuseppe Verdi Marching Show & Marching Band</b>

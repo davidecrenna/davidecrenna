@@ -24,26 +24,32 @@ $(document).ready(function() {
 			
       $.ajax({
         type: contactForm.attr('method'),
-        url: contactForm.attr('action') + '?ajax=true',
+        url: '/',
         data: contactForm.serialize(),
-        success: function(response) {
-          response = $.trim(response);
-					
-          $('#contact-sending').delay(1000).fadeOut(200);
-					
-          if (response == 'success') {
-						
-            $('#contact-sending-success').delay(1000).fadeIn(200);
-            $('#contact-form')[0].reset();
-            $('.form-group').removeClass('has-success has-error');
-			$('#contact-sending-success').delay(5000).fadeOut(200);
-          } 
-	
-          else {
-            $('#contact-sending-error').delay(1000).fadeIn(250);
-			$('#contact-sending-error').delay(5000).fadeOut(200);
-          }
-        }
+            success: function(response){
+                response = $.trim(response);
+
+                $('#contact-sending').delay(1000).fadeOut(200);
+
+                if (response == 'success') {
+
+                  $('#contact-sending-success').delay(1000).fadeIn(200);
+                  $('#contact-form')[0].reset();
+                  $('.form-group').removeClass('has-success has-error');
+              $('#contact-sending-success').delay(5000).fadeOut(200);
+                }
+
+                else {
+                    alert(response);
+                  $('#contact-sending-error').delay(1000).fadeIn(250);
+              $('#contact-sending-error').delay(5000).fadeOut(200);
+                }
+            }
+
+        //    contactForm.serialize(),
+        //success: function(response) {
+
+        //}
       });
     }
 		

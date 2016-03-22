@@ -134,7 +134,7 @@ $(document).ready(function() {
   /*-------------------------------
     GALLERY
   -------------------------------*/
-  var $grid = $('#grid');
+  /*var $grid = $('#grid');
  
   $grid.shuffle({
     itemSelector: '.gallery-item',
@@ -150,7 +150,7 @@ $(document).ready(function() {
     var category = $(this).parent().attr('data-group');
  
     $grid.shuffle('shuffle', category);
-  });
+  });*/
   
   
   /*-------------------------------

@@ -11,7 +11,6 @@
 |
 */
 
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -24,5 +23,5 @@
 */
 
 Route::group(['middleware' => ['web']], function () {
-    Route::get('/', 'PagesController@index');
+    Route::resource('/', 'PagesController');
 });

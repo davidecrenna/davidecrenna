@@ -1,0 +1,3 @@
+CIoaoo
+
+{{ $request->all() }}

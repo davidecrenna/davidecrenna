@@ -1,0 +1,1 @@
+Messaggio: {{ $input->message }}
