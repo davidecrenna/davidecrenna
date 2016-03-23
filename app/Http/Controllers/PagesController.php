@@ -9,7 +9,7 @@ use App\Photo;
 use App\Group;
 
 
-use Mail;
+use Illuminate\Support\Facades\Mail;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Request;
@@ -36,10 +36,27 @@ class PagesController extends Controller
     public function store()
     {
         $input = Request::all();
-        Contact::create($input);
-
+        $this->sendContactMail(Contact::create($input));
         return 'success';
-
     }
+
+    public function sendContactMail($contact){
+        Mail::send('emails.contact', ['input' => $contact], function ($m) {
+            $m->to('admin@davidecrenna.it','Davide Crenna Guitarist')->subject('Nuovo Contatto davidecrenna.it!');
+//            $m->to(env('ADMIN_MAIL'),env('ADMIN_NAME'))->subject('Nuovo Contatto davidecrenna.it!');
+        });
+    }
+
+    public function provamail()
+    {
+        Mail::raw('Text to e-mail', function ($message) {
+            $message->to(env('ADMIN_MAIL'),env('ADMIN_NAME'))->subject('Nuovo Contatto davidecrenna.it!');
+        });
+    }
+
+    public function phpInfo(){
+        return phpinfo();
+    }
+
 
 }
