@@ -1,7 +1,7 @@
 <!-- Gallery -->
 <section id="gallery" class="section-wrap">
     <div class="container">
-    {{--<h2 class="heading">Gallery <h4><a href="/gallery">Visualizza la Gallery completa</a></h4></h2>--}}
+    <h2 class="heading">Gallery</h2> {{--<h4><a href="/gallery">Visualizza la Gallery completa</a></h4>--}}
 
     <div id="photogallery">
         @foreach ($photos as $photo)
