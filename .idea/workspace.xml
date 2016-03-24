@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f76dd4a1-28b7-4f4e-a68d-5b6e41a7acd9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partials/contact.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/contact.blade.php" />
     </list>
     <ignored path="davidecrenna.iws" />
@@ -54,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/partials/contact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.39851025">
-              <caret line="58" column="131" selection-start-line="58" selection-start-column="131" selection-end-line="58" selection-end-column="131" />
+              <caret line="58" column="123" selection-start-line="58" selection-start-column="123" selection-end-line="58" selection-end-column="123" />
               <folding />
             </state>
           </provider>
@@ -826,7 +823,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/partials/contact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39851025">
-          <caret line="58" column="131" selection-start-line="58" selection-start-column="131" selection-end-line="58" selection-end-column="131" />
+          <caret line="58" column="123" selection-start-line="58" selection-start-column="123" selection-end-line="58" selection-end-column="123" />
           <folding />
         </state>
       </provider>
