@@ -43,20 +43,7 @@ class PagesController extends Controller
     public function sendContactMail($contact){
         Mail::send('emails.contact', ['input' => $contact], function ($m) {
             $m->to('dvdcrenna@gmail.com','Davide Crenna')->subject('Nuovo Contatto davidecrenna.it!');
-//            $m->to(env('ADMIN_MAIL'),env('ADMIN_NAME'))->subject('Nuovo Contatto davidecrenna.it!');
         });
     }
-
-    public function provamail()
-    {
-        Mail::raw('Text to e-mail', function ($message) {
-            $message->to(env('ADMIN_MAIL'),env('ADMIN_NAME'))->subject('Nuovo Contatto davidecrenna.it!');
-        });
-    }
-
-    public function phpInfo(){
-        return phpinfo();
-    }
-
 
 }

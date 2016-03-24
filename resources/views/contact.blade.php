@@ -1,3 +1,0 @@
-CIoaoo
-
-{{ $request->all() }}

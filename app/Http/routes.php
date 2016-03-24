@@ -24,7 +24,5 @@
 
 Route::group(['middleware' => ['web']], function () {
     Route::resource('/', 'PagesController');
-    Route::get('mail', 'PagesController@provamail');
-    Route::get('phpinfo', 'PagesController@phpInfo');
 
 });
