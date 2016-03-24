@@ -56,7 +56,7 @@
             {{--</form>--}}
             {!! Form::close() !!}
             <!-- Message sending -->
-            <div id="contact-sending-success" class="contact-notif success">Il messaggio è stato inviato. Risponder&oacute; al più presto!</div>
+            <div id="contact-sending-success" class="contact-notif success">Il messaggio è stato inviato. Risponder&ograve; al più presto!</div>
             <div id="contact-sending-error" class="contact-notif error">Errore nell'invio del messaggio. Riprova.</div>
             <div id="contact-sending" class="contact-notif">Invio del messaggio in corso. Attendi...</div>
 
